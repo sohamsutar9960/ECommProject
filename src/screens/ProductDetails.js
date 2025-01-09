@@ -1,5 +1,6 @@
-import {View, Text, StatusBar, ScrollView} from 'react-native';
+import {View, StatusBar, ScrollView} from 'react-native';
 import React from 'react';
+
 import About from '../components/ProductDetails/About';
 import ViewCart from '../components/ProductDetails/ViewCart';
 

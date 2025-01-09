@@ -1,5 +1,5 @@
 import {View, Text, TouchableOpacity, StyleSheet} from 'react-native';
-import React, {useCallback} from 'react';
+import React from 'react';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {useSelector} from 'react-redux';

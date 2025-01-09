@@ -1,6 +1,5 @@
 import React, {useState} from 'react';
-import {Image, StyleSheet, View, TextInput} from 'react-native';
-import {GREY, PRIMARY} from '../assets/colors/colors';
+import {StyleSheet, View, TextInput} from 'react-native';
 import {useTheme} from '@react-navigation/native';
 
 const CustomTextInput = ({left, right, ...props}) => {

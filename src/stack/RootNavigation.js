@@ -1,4 +1,3 @@
-import {View, Text} from 'react-native';
 import React, {useContext} from 'react';
 import AuthStack from './AuthStack';
 import AppStack from './AppStack';

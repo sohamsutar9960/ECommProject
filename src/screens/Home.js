@@ -7,14 +7,16 @@ import {
   Dimensions,
 } from 'react-native';
 import React from 'react';
-import Categories from '../components/Home/Categories';
-import BottomTabs from '../components/Home/BottomTabs';
 import {useEffect} from 'react';
+
 import axios from 'axios';
-import ProductList from '../components/Home/ProductList';
-import Header from '../components/Home/Header';
 import SkeletonPlaceholder from 'react-native-skeleton-placeholder';
 import Toast from 'react-native-toast-message';
+
+import Categories from '../components/Home/Categories';
+import BottomTabs from '../components/Home/BottomTabs';
+import ProductList from '../components/Home/ProductList';
+import Header from '../components/Home/Header';
 
 const {width} = Dimensions.get('window');
 const ITEM_SIZE = width / 2 - 20; // Adjusting for padding

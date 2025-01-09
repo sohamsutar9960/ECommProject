@@ -1,6 +1,5 @@
 import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
   Text,
   View,
@@ -8,9 +7,12 @@ import {
   ScrollView,
   StatusBar,
 } from 'react-native';
+
+import {navigationRef} from '../utils/NavigationUtils';
+
 import OrderSummary from '../components/OrderCompleted/OrderSummary';
 import SuccessAnimation from '../components/OrderCompleted/SuccessAnimation';
-import {navigationRef} from '../utils/NavigationUtils';
+
 import CustomHeader from '../components/CustomHeader';
 
 const OrderCompleted = ({route}) => {

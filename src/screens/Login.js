@@ -10,7 +10,7 @@ import {
 } from 'react-native';
 import React, {useContext, useEffect, useRef} from 'react';
 import CustomTextInput from '../components/CustomTextInput';
-import {GREY, HIGHLIGHT_GREY, PRIMARY_TINT} from '../assets/colors/colors';
+import {GREY, PRIMARY_TINT} from '../assets/colors/colors';
 import CustomButton from '../components/CustomButton';
 import {useTheme} from '@react-navigation/native';
 import {AuthContext} from '../context/AuthContext';

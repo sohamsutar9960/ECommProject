@@ -1,11 +1,14 @@
 import React from 'react';
 import {View, StyleSheet, FlatList, StatusBar} from 'react-native';
+
+import {useSelector} from 'react-redux';
+
 import DeliveryInfo from '../components/Cart/DeliveryInfo';
 import CartItem from '../components/Cart/CartItem';
 import OfferSection from '../components/Cart/OfferSection';
 import PaymentCTA from '../components/Cart/PaymentCTA';
-import {useSelector} from 'react-redux';
 import EmptyCart from '../components/Cart/EmptyCart';
+
 import CustomHeader from '../components/CustomHeader';
 
 const Cart = () => {

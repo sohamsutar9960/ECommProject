@@ -1,6 +1,5 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet} from 'react-native';
-import {PRIMARY} from '../assets/colors/colors';
 import {useTheme} from '@react-navigation/native';
 
 const CustomButton = ({onPress, title}) => {
